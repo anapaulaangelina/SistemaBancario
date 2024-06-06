@@ -5,7 +5,7 @@ public interface IConta {
 
     void depositar(double valor, Boolean mostrarInformacao);
 
-    void emprestimo(double valor);
+    void pegarEmprestimo(double valor);
 
     void pagarEmprestimo(double valor);
 

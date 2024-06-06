@@ -41,7 +41,7 @@ public abstract class Conta implements IConta {
     }
 
     @Override
-    public void emprestimo(double valor) {
+    public void pegarEmprestimo(double valor) {
         this.depositar(valor, false);
         this.alterarSaldoDevedor(valor * -1);
         System.out.println("Empréstimo realizado: R$ " + valor);

@@ -18,7 +18,7 @@ public class Main {
         poupanca.imprimirExtrato();
 
         System.out.println("\n## Data: 05/05/2024");
-        cc.emprestimo(2500);
+        cc.pegarEmprestimo(2500);
         cc.imprimirExtrato();
 
         System.out.println("\n## Data: 06/05/2024");
